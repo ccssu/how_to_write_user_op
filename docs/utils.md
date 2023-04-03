@@ -11,10 +11,10 @@
 | VS Code 插件::Live Server | 启动带有实时重载功能的本地开发服务，用于静态和动态页面。实现 在线预览 oneflow开发过程中 html 文档。                                                                               |
 | Debug工具::pdb            | <a href="https://docs.python.org/zh-cn/3/library/pdb.html"> pdb </a> 模块定义了一个交互式源代码调试器，用于Python 程序                                                       |
 | Debug工具::GDB            | <a href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/gdb.html"> GDB</a>: 一个由GNU开源组织发布的、UNIX/LINUX操作系统下的、基于命令行的、功能强大的程序调试工具。 |
+| 性能工具::nsys|[NVIDIA性能分析工具Nsight Systems/Compute 的使用介绍](https://www.bilibili.com/video/BV15P4y1R7VG/?vd_source=0a13fe290c31c25fa9f746838c074df4) |
 
 
-
-### <a id="Visual Studio Code"> Visual Studio Code </a>
+<!-- ###  Visual Studio Code 
 
 **官方链接**:  https://code.visualstudio.com/
 
@@ -104,7 +104,7 @@ cmake .. -C ../cmake/caches/cn/cuda.cmake   -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/c
 
 ninja -j32
 ```
-</details>
+</details> -->
 
 
 

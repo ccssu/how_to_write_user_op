@@ -35,3 +35,8 @@ ninja of_format
 - https://github.com/ccssu/how_to_write_user_op/blob/main/docs/OneFlow/document.md
 
 
+## 资料篇
+
+[【ElementwiseUnary 算子代码实现梳理】](https://github.com/Oneflow-Inc/OneTeam/issues/1975)
+[【矩阵乘 matmul 系列算子实现逻辑的梳理】](https://github.com/Oneflow-Inc/OneTeam/issues/1973)
+[ 【一次 cpp 上 bug 的复现、定位和分析调试笔记（关于 global mode）】](https://github.com/Oneflow-Inc/OneTeam/issues/1978)

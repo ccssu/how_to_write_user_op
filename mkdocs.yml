@@ -1,4 +1,5 @@
 site_name: OneFlow_User_Op
+dev_addr: '127.0.0.1:5500' #默认值
 
 theme:
   name: "material"
@@ -21,6 +22,9 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - navigation.tabs
+    - navigation.top
+    - instant
     - content.action.edit
     - content.code.annotate
     - content.tooltips
@@ -71,6 +75,33 @@ plugins:
   - mkdocstrings
   - search
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 # Primary navigation
 nav:
   - Home: index.md 
+  - 工具篇: 
+    - 前言: utils.md
+    - Visual Studio Code: utils/vscode.md
+    - VS Code 插件::clangd: utils/clangd.md
+    - VS Code 插件::Python: utils/Python.md
+    - VS Code 插件::Live Server: utils/live_server.md
+    - Debug工具::pdb: utils/pdb.md
+    - Debug工具::GDB: utils/gdb.md
+    - 性能工具::nsys: utils/nsys.md
+  - 开发篇:
+    - 如何在 OneFlow 中新增算子: OneFlow/forward.md
+    - OneFlow CUDA Elementwise: OneFlow/OneFlow_CUDA_Elementwise.md
+    - 反向传播实现示例: OneFlow/backward.md
+    - PyTorch:
+      - Ox01: PyTorch/Ox01.md
+
+  - 测试篇:
+    - Test: OneFlow/test.md
+  - 文档篇:
+    - Document: OneFlow/document.md
+
+
