@@ -1,4 +1,5 @@
 # 如何在 OneFlow 中新增算子
+> 本文来源： https://github.com/Oneflow-Inc/OneTeam/blob/master/tutorial/howto_add_user_op.md
 
 本文将以开发一个 leaky_relu（准确说是 leaky_relu_yzh op，因为 master 分支的 leaky_relu 组合了其它知识点，不适合作为教程展示）为例介绍如何在 OneFlow 中新增算子。
 
