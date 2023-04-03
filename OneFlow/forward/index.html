@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../../utils/gdb/">
+        <link rel="prev" href="../../utils/nsys/">
       
       
         <link rel="next" href="../OneFlow_CUDA_Elementwise/">
@@ -445,6 +445,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/nsys/" class="md-nav__link">
+        性能工具::nsys
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -722,6 +736,56 @@
       <a href="../backward/" class="md-nav__link">
         反向传播实现示例
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+          PyTorch
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          PyTorch
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PyTorch/Ox01/" class="md-nav__link">
+        Ox01
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -1046,6 +1110,9 @@
 
 
 <h1 id="oneflow">如何在 OneFlow 中新增算子</h1>
+<blockquote>
+<p>本文来源： https://github.com/Oneflow-Inc/OneTeam/blob/master/tutorial/howto_add_user_op.md</p>
+</blockquote>
 <p>本文将以开发一个 leaky_relu（准确说是 leaky_relu_yzh op，因为 master 分支的 leaky_relu 组合了其它知识点，不适合作为教程展示）为例介绍如何在 OneFlow 中新增算子。</p>
 <p>本文对应的 PR 在 https://github.com/Oneflow-Inc/oneflow/pull/8350</p>
 <h2 id="_1">背景</h2>
